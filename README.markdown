@@ -27,7 +27,8 @@ p['demo'] = False - Option to use precomputed clean data (makes beta output clea
 p['exportCLRMatrix'] = False - Option to write computed CLR matrices to output directory
 p['exportBSDR'] = False - Option to write computed bootstrap specific design and response matricies to outpur directory
 ```
-
+## Requirements
+[Anaconda Python](https://www.anaconda.com/download/)
 ## Help
 
 Any questions concerning running the code or creating the job script can be directed to joseph.macaluso@stonybrook.edu
