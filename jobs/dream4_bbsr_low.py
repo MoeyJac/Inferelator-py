@@ -29,8 +29,8 @@ def load():
 
 	p['saveToDir'] = 'output/dream4_BBSR_1'
 
-	p['verbose'] = False
-	p['demo'] = True
+	p['verbose'] = True
+	p['demo'] = False
 	p['exportCLRMatrix'] = True
 	p['exportBSDR'] = True
     

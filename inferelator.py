@@ -59,16 +59,11 @@ for priorName in priors.keys():
 
     desMat = desResp['finalDesMat']
     gpOut = groupPredictors(desMat, prior, data['gsMat'], bsPI)
-    #print('A total of {} predictors contained NA were removed.'.format(len(gpOut['predHasNa'])))
-    #print('A total of {} predictors were constant and were removed.'.format(-1))
-    #print('A total of {} predictors formed {} groups.\n'.format(len(set(utils.flatten(gpOut['predGroups']))), len(gpOut['predGroups'])))
 
     bootstrapBetas = []
     ### Bootstrap Loop ###
     for bootstrap in range(1, numBoots+1):
         print('Bootstrap {} of {}'.format(bootstrap, numBoots))
-
-        # NOTE: Not implementing while loop here. Assume pars['priorSS'] is False
 
         noPrWeight = 1
         if (prior != 0).values.sum() > 0:

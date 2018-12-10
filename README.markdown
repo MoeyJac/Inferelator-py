@@ -10,6 +10,8 @@ The Inferelator should be run using [python3](https://www.python.org/downloads/)
 
 `python3 inferelator.py [JOB_NAME]`
 
+For example to run it with the provided dream4_bbsr_low job one would run `python3 inferelator.py dream4_bbsr_low`
+
 The `JOB_NAME` is the name of the configuration script that should be used, and should be located in the `jobs/` directory.
 
 ## Configuration Highlights
