@@ -15,7 +15,7 @@ The `JOB_NAME` is the name of the configuration script that should be used, and 
 For example to run with the provided dream4_bbsr_low job one would use the command `python3 inferelator.py dream4_bbsr_low` in the root directory
 
 ## Configuration Highlights
-###### NOTE: Some configuration specification are listed in the default configuration file but have not yet been implemented.
+###### NOTE: Some configuration specifications are listed in the default configuration file but have not yet been implemented.
 ```
 p['inputDir'] = 'input/dream4' - Directory in which input files will be search
 p['metaDataFile'] = 'meta_data.tsv' - Meta data file to be used from the specified inpurDir
