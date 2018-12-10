@@ -13,7 +13,7 @@ The Inferelator should be run using [python3](https://www.python.org/downloads/)
 The `JOB_NAME` is the name of the configuration script that should be used, and should be located in the `jobs/` directory.
 
 ## Configuration Highlights
-# NOTE: Some configuration specification are listed in the default configuration file but have not yet been implemented.
+###### NOTE: Some configuration specification are listed in the default configuration file but have not yet been implemented.
 ```
 p['inputDir'] = 'input/dream4' - Directory in which input files will be search
 p['metaDataFile'] = 'meta_data.tsv' - Meta data file to be used from the specified inpurDir
