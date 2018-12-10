@@ -12,7 +12,7 @@ The Inferelator should be run using [python3](https://www.python.org/downloads/)
 
 The `JOB_NAME` is the name of the configuration script that should be used, and should be located in the `jobs/` directory.
 
-For example to run it with the provided dream4_bbsr_low job one would run `python3 inferelator.py dream4_bbsr_low` in the root directory
+For example to run with the provided dream4_bbsr_low job one would use the command `python3 inferelator.py dream4_bbsr_low` in the root directory
 
 ## Configuration Highlights
 ###### NOTE: Some configuration specification are listed in the default configuration file but have not yet been implemented.
