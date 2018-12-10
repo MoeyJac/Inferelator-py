@@ -37,6 +37,8 @@ priors = getPriors(
 # Generate bootstrap permutations
 numBoots, respIDX, respIDXNames = pars['numBoots'], desResp['respIDX'], desResp['respIDXNames']
 bsPI = pd.DataFrame(0, range(1, numBoots+1), respIDX.columns)
+
+# NOTE: Currently does not work using 1 bootstrap. Please use 2 or more
 if numBoots is 1:
     bsPI.loc[1, :] + respIDXNames.loc[1, :]
 else:

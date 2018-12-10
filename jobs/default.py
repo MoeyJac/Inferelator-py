@@ -8,11 +8,11 @@ def load():
 	p['metaDataFile'] = None
 	p['priorsFile'] = None
 	p['goldStandardFile'] = None
-	#p['leaveOutFile'] = None
-	#p['randomizeExpression'] = False
 
 	p['jobSeed'] = 42
 	p['saveToDir'] = None
+	
+	# NOTE: Currently does not work using 1 bootstrap. Please use 2 or more
 	p['numBoots'] = 20
 	p['maxPreds'] = 10
 	p['miBins'] = 10

@@ -9,6 +9,7 @@ def load():
 	p['priorsFile'] = 'gold_standard.tsv'
 	p['goldStandardFile'] = 'gold_standard.tsv'
 
+	# NOTE: Currently does not work using 1 bootstrap. Please use 2 or more
 	p['numBoots'] = 2
 	p['cores'] = 1
 
